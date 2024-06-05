@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(2, 1, 49);
+    color: rgb(199, 242, 251);
+    font-family: 'Mukta', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(3, 2, 93);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 34px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(199, 242, 251); 
+}
+nav ul li a:hover{
+    color: rgb(133, 108, 244);
+    font-size: 21px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstSection > div{
+    width: 57%;
+}
+.leftSection{
+    margin: 128px 0;
+    font-size: 3rem;
+}
+.rightSection{
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+}
+.rightSection img{
+    height: 89%;
+    position: absolute;
+    left: 32%;
+    bottom: 0;
+
+}
+.shape{
+    height: 100%;
+    position: absolute;
+    left: 32%;
+    bottom: 0;
+}
+.purple{
+    color: rgb(193, 115, 252);
+}
+#element{
+    color: rgb(193, 115, 252);
+}
